@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="actitimeTestNG.Actitime_enabled" />
+			<class name="pageObjectModel.TestContactPage" />
+			<class name="dataProvider.Test1" />
+			<class name="dataProvider.DataProvider1" />
+			<class name="excelReading.ExcelReading" />
+			<class name="excelReading.UpdateExcel" />
+			<class name="retryAnalyzer.MyTest" />
+			<class name="anotation.AnoalwaysRun" />
+			<class name="dataProvider.IncludeExclude" />
+			<class name="sample.NewTest" />
+			<class name="actitimeTestNG.Actitime_ExceptionAndTimeout" />
+			<class name="report.TestReport" />
+			<class name="actitimeTestNG.Actitime_Timeout" />
+			<class name="actitimeTestNG.Actitime_Dependson" />
+			<class name="anotation.AnoDependencies" />
+			<class name="dataProvider.GroupExample" />
+			<class name="retryAnalyzer.RuntimeRetry" />
+			<class name="anotation.simpleTest" />
+			<class name="anotation.AnoPriority" />
+			<class name="actitimeTestNG.Actitime_Priority" />
+			<class name="dropDown.DynamicDropDown" />
+			<class name="sample.Sample1" />
+			<class name="sample.Sample2" />
+			<class name="actitimeTestNG.Actitime_InvocationCount" />
+			<class name="sample.Sample3" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

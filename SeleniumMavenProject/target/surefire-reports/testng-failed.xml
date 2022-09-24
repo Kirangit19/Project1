@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="none">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="actitimeTestNG.Actitime_enabled"/>
+      <class name="pageObjectModel.TestContactPage"/>
+      <class name="dataProvider.Test1"/>
+      <class name="dataProvider.DataProvider1"/>
+      <class name="excelReading.ExcelReading"/>
+      <class name="excelReading.UpdateExcel"/>
+      <class name="retryAnalyzer.MyTest"/>
+      <class name="anotation.AnoalwaysRun"/>
+      <class name="dataProvider.IncludeExclude"/>
+      <class name="sample.NewTest"/>
+      <class name="actitimeTestNG.Actitime_ExceptionAndTimeout"/>
+      <class name="report.TestReport"/>
+      <class name="actitimeTestNG.Actitime_Timeout"/>
+      <class name="actitimeTestNG.Actitime_Dependson"/>
+      <class name="anotation.AnoDependencies"/>
+      <class name="dataProvider.GroupExample"/>
+      <class name="retryAnalyzer.RuntimeRetry"/>
+      <class name="anotation.simpleTest"/>
+      <class name="anotation.AnoPriority"/>
+      <class name="actitimeTestNG.Actitime_Priority"/>
+      <class name="dropDown.DynamicDropDown"/>
+      <class name="sample.Sample1"/>
+      <class name="sample.Sample2"/>
+      <class name="actitimeTestNG.Actitime_InvocationCount"/>
+      <class name="sample.Sample3"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="anotation.simpleTest">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="beforesuite"/>
+          <include name="afterclass"/>
+          <include name="beforeclass"/>
+          <include name="beforetest"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- anotation.simpleTest -->
+      <class name="anotation.AnoalwaysRun">
+        <methods>
+          <include name="test3"/>
+          <include name="test2"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- anotation.AnoalwaysRun -->
+      <class name="retryAnalyzer.RuntimeRetry">
+        <methods>
+          <include name="Test2"/>
+        </methods>
+      </class> <!-- retryAnalyzer.RuntimeRetry -->
+      <class name="actitimeTestNG.Actitime_Dependson">
+        <methods>
+          <include name="login"/>
+          <include name="openBrowserAndAppURL"/>
+        </methods>
+      </class> <!-- actitimeTestNG.Actitime_Dependson -->
+      <class name="excelReading.UpdateExcel">
+        <methods>
+          <include name="updateExcel"/>
+        </methods>
+      </class> <!-- excelReading.UpdateExcel -->
+      <class name="report.TestReport">
+        <methods>
+          <include name="endTest"/>
+          <include name="StartTest"/>
+        </methods>
+      </class> <!-- report.TestReport -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

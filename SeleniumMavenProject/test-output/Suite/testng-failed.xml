@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="excelReading.ActitimeExcelData"/>
+      <class name="actitimeTestNG.Actitime_enabled"/>
+      <class name="pageObjectModel.TestContactPage"/>
+      <class name="dataProvider.Test1"/>
+      <class name="dataProvider.DataProvider1"/>
+      <class name="excelReading.ExcelReading"/>
+      <class name="excelReading.UpdateExcel"/>
+      <class name="retryAnalyzer.MyTest"/>
+      <class name="anotation.AnoalwaysRun"/>
+      <class name="dataProvider.IncludeExclude"/>
+      <class name="sample.NewTest"/>
+      <class name="actitimeTestNG.Actitime_ExceptionAndTimeout"/>
+      <class name="report.TestReport"/>
+      <class name="actitimeTestNG.Actitime_Timeout"/>
+      <class name="actitimeTestNG.Actitime_Dependson"/>
+      <class name="anotation.AnoDependencies"/>
+      <class name="dataProvider.GroupExample"/>
+      <class name="retryAnalyzer.RuntimeRetry"/>
+      <class name="anotation.simpleTest"/>
+      <class name="excelReading.ActitimeExcelData2"/>
+      <class name="anotation.AnoPriority"/>
+      <class name="actitimeTestNG.Actitime_Priority"/>
+      <class name="dropDown.DynamicDropDown"/>
+      <class name="sample.Sample1"/>
+      <class name="sample.Sample2"/>
+      <class name="actitimeTestNG.Actitime_InvocationCount"/>
+      <class name="sample.Sample3"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="excelReading.UpdateExcel">
+        <methods>
+          <include name="updateExcel"/>
+        </methods>
+      </class> <!-- excelReading.UpdateExcel -->
+      <class name="actitimeTestNG.Actitime_enabled">
+        <methods>
+          <include name="createTask"/>
+          <include name="openBrowserAndAppURL"/>
+        </methods>
+      </class> <!-- actitimeTestNG.Actitime_enabled -->
+      <class name="dataProvider.IncludeExclude">
+        <methods>
+          <include name="addEmployeeTestCase"/>
+          <include name="addLocationTestCase"/>
+          <include name="addDepartmentTestCase"/>
+        </methods>
+      </class> <!-- dataProvider.IncludeExclude -->
+      <class name="pageObjectModel.TestContactPage">
+        <methods>
+          <include name="testContactsCreation"/>
+          <include name="testDeletionCreation"/>
+        </methods>
+      </class> <!-- pageObjectModel.TestContactPage -->
+      <class name="actitimeTestNG.Actitime_Dependson">
+        <methods>
+          <include name="logoutClose"/>
+          <include name="createTask"/>
+          <include name="login"/>
+          <include name="openBrowserAndAppURL"/>
+        </methods>
+      </class> <!-- actitimeTestNG.Actitime_Dependson -->
+      <class name="actitimeTestNG.Actitime_ExceptionAndTimeout">
+        <methods>
+          <include name="dividedByZeroExample1"/>
+          <include name="executetimeOut"/>
+        </methods>
+      </class> <!-- actitimeTestNG.Actitime_ExceptionAndTimeout -->
+      <class name="anotation.AnoalwaysRun">
+        <methods>
+          <include name="test3"/>
+          <include name="test2"/>
+          <include name="test4"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- anotation.AnoalwaysRun -->
+      <class name="dropDown.DynamicDropDown">
+        <methods>
+          <include name="start"/>
+          <include name="makemytrip"/>
+        </methods>
+      </class> <!-- dropDown.DynamicDropDown -->
+      <class name="retryAnalyzer.MyTest">
+        <methods>
+          <include name="Test2"/>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- retryAnalyzer.MyTest -->
+      <class name="dataProvider.DataProvider1">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- dataProvider.DataProvider1 -->
+      <class name="anotation.AnoPriority">
+        <methods>
+          <include name="test1"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- anotation.AnoPriority -->
+      <class name="excelReading.ActitimeExcelData2">
+        <methods>
+          <include name="actitimeLogin"/>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- excelReading.ActitimeExcelData2 -->
+      <class name="actitimeTestNG.Actitime_Priority">
+        <methods>
+          <include name="logoutClose"/>
+          <include name="openBrowserAndAppURL"/>
+          <include name="login"/>
+          <include name="createTask"/>
+        </methods>
+      </class> <!-- actitimeTestNG.Actitime_Priority -->
+      <class name="sample.Sample1">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- sample.Sample1 -->
+      <class name="anotation.simpleTest">
+        <methods>
+          <include name="test1"/>
+          <include name="test2"/>
+          <include name="beforesuite"/>
+        </methods>
+      </class> <!-- anotation.simpleTest -->
+      <class name="actitimeTestNG.Actitime_Timeout">
+        <methods>
+          <include name="openBrowserAndAppURL"/>
+        </methods>
+      </class> <!-- actitimeTestNG.Actitime_Timeout -->
+      <class name="report.TestReport">
+        <methods>
+          <include name="ReportTest1"/>
+        </methods>
+      </class> <!-- report.TestReport -->
+      <class name="sample.Sample3">
+        <methods>
+          <include name="c_compose"/>
+          <include name="b_login"/>
+          <include name="a_signUp"/>
+        </methods>
+      </class> <!-- sample.Sample3 -->
+      <class name="retryAnalyzer.RuntimeRetry">
+        <methods>
+          <include name="Test2"/>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- retryAnalyzer.RuntimeRetry -->
+      <class name="excelReading.ExcelReading">
+        <methods>
+          <include name="getRowDetails"/>
+          <include name="getCellData"/>
+          <include name="readSheetDetails"/>
+          <include name="getCellDetails"/>
+        </methods>
+      </class> <!-- excelReading.ExcelReading -->
+      <class name="actitimeTestNG.Actitime_InvocationCount">
+        <methods>
+          <include name="openBrowserAndAppURL"/>
+        </methods>
+      </class> <!-- actitimeTestNG.Actitime_InvocationCount -->
+      <class name="excelReading.ActitimeExcelData">
+        <methods>
+          <include name="getData"/>
+          <include name="actitimeLogin"/>
+        </methods>
+      </class> <!-- excelReading.ActitimeExcelData -->
+      <class name="sample.Sample2">
+        <methods>
+          <include name="login"/>
+          <include name="signUp"/>
+          <include name="compose"/>
+        </methods>
+      </class> <!-- sample.Sample2 -->
+      <class name="dataProvider.GroupExample">
+        <methods>
+          <include name="Percentage"/>
+          <include name="Modulus"/>
+          <include name="Substraction"/>
+          <include name="Addition"/>
+          <include name="Multiplication"/>
+          <include name="Division"/>
+        </methods>
+      </class> <!-- dataProvider.GroupExample -->
+      <class name="dataProvider.Test1">
+        <methods>
+          <include name="loginVtiger"/>
+        </methods>
+      </class> <!-- dataProvider.Test1 -->
+      <class name="sample.NewTest">
+        <methods>
+          <include name="testCase1"/>
+        </methods>
+      </class> <!-- sample.NewTest -->
+      <class name="anotation.AnoDependencies">
+        <methods>
+          <include name="test2"/>
+          <include name="test1"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- anotation.AnoDependencies -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

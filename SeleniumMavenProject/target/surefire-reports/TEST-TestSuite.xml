@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="64" failures="5" name="TestSuite" time="187.525" errors="0" skipped="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\bin"/>
+    <property name="java.vm.version" value="25.333-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="K:\Workspace\SeleniumMavenProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="K:\Workspace\SeleniumMavenProject"/>
+    <property name="java.runtime.version" value="1.8.0_333-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\KIRAN\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="K:\Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2585080926085075965.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_333\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_341/bin/server;C:/Program Files/Java/jre1.8.0_341/bin;C:/Program Files/Java/jre1.8.0_341/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_333\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Git\cmd;C:\apache-maven-3.8.6\bin;%MAVEN_HOME%\bin;%M2_HOME%\bin;%JAVA_HOME%\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\KIRAN\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\KIRAN\AppData\Local\Programs\Python\Python310\;C:\Users\KIRAN\AppData\Local\Microsoft\WindowsApps;;C:\Users\KIRAN\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\bin;;C:\Users\KIRAN\AppData\Roaming\npm;C:\Users\KIRAN\OneDrive\Desktop\JAVA\eclipse-jee-photon-R-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\KIRAN"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="KIRAN"/>
+    <property name="java.class.path" value="C:\Users\KIRAN\OneDrive\Desktop\JAVA\eclipse-jee-photon-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.9.0.20180606-2035\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_333\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_333"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_333\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="K:\Workspace\SeleniumMavenProject\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="actitimeTestNG.Actitime_enabled" name="createTask" time="0.017"/>
+  <testcase classname="actitimeTestNG.Actitime_enabled" name="openBrowserAndAppURL" time="0.19"/>
+  <testcase classname="pageObjectModel.TestContactPage" name="testContactsCreation" time="0"/>
+  <testcase classname="pageObjectModel.TestContactPage" name="testDeletionCreation" time="0"/>
+  <testcase classname="dataProvider.Test1" name="loginVtiger" time="36.403"/>
+  <testcase classname="dataProvider.Test1" name="loginVtiger" time="59.524"/>
+  <testcase classname="dataProvider.DataProvider1" name="test1" time="0"/>
+  <testcase classname="dataProvider.DataProvider1" name="test1" time="0"/>
+  <testcase classname="excelReading.ExcelReading" name="getCellData" time="0.979"/>
+  <testcase classname="excelReading.ExcelReading" name="getCellDetails" time="0.087"/>
+  <testcase classname="excelReading.ExcelReading" name="getRowDetails" time="0.059"/>
+  <testcase classname="excelReading.ExcelReading" name="readSheetDetails" time="0.043"/>
+  <testcase classname="excelReading.UpdateExcel" name="updateExcel" time="0.051">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at excelReading.UpdateExcel.updateExcel(UpdateExcel.java:23)
+</failure>
+  </testcase>
+  <testcase classname="retryAnalyzer.MyTest" name="Test1" time="0"/>
+  <testcase classname="retryAnalyzer.MyTest" name="Test2" time="0"/>
+  <testcase classname="anotation.AnoalwaysRun" name="test1" time="0">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at anotation.AnoalwaysRun.test1(AnoalwaysRun.java:9)
+</failure>
+  </testcase>
+  <testcase classname="anotation.AnoalwaysRun" name="test2" time="0">
+    <failure message="Method fail" type="java.lang.AssertionError">java.lang.AssertionError: Method fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at anotation.AnoalwaysRun.test2(AnoalwaysRun.java:14)
+</failure>
+  </testcase>
+  <testcase classname="anotation.AnoalwaysRun" name="test4" time="0"/>
+  <testcase classname="dataProvider.IncludeExclude" name="addDepartmentTestCase" time="0"/>
+  <testcase classname="dataProvider.IncludeExclude" name="addEmployeeTestCase" time="0.001"/>
+  <testcase classname="dataProvider.IncludeExclude" name="addLocationTestCase" time="0"/>
+  <testcase classname="sample.NewTest" name="testCase1" time="31.401"/>
+  <testcase classname="actitimeTestNG.Actitime_ExceptionAndTimeout" name="dividedByZeroExample1" time="0"/>
+  <testcase classname="actitimeTestNG.Actitime_ExceptionAndTimeout" name="executetimeOut" time="0.008"/>
+  <testcase classname="report.TestReport" name="ReportTest1" time="26.454"/>
+  <testcase classname="actitimeTestNG.Actitime_Timeout" name="openBrowserAndAppURL" time="0.196"/>
+  <testcase classname="actitimeTestNG.Actitime_Dependson" name="createTask" time="0"/>
+  <testcase classname="actitimeTestNG.Actitime_Dependson" name="logoutClose" time="0"/>
+  <testcase classname="actitimeTestNG.Actitime_Dependson" name="openBrowserAndAppURL" time="0">
+    <failure message="/ by zero" type="java.lang.ArithmeticException">java.lang.ArithmeticException: / by zero
+	at actitimeTestNG.Actitime_Dependson.openBrowserAndAppURL(Actitime_Dependson.java:9)
+</failure>
+  </testcase>
+  <testcase classname="anotation.AnoDependencies" name="test1" time="0"/>
+  <testcase classname="anotation.AnoDependencies" name="test2" time="0"/>
+  <testcase classname="dataProvider.GroupExample" name="Addition" time="0"/>
+  <testcase classname="dataProvider.GroupExample" name="Division" time="0"/>
+  <testcase classname="dataProvider.GroupExample" name="Modulus" time="0"/>
+  <testcase classname="dataProvider.GroupExample" name="Multiplication" time="0"/>
+  <testcase classname="dataProvider.GroupExample" name="Percentage" time="0"/>
+  <testcase classname="dataProvider.GroupExample" name="Substraction" time="0"/>
+  <testcase classname="retryAnalyzer.RuntimeRetry" name="Test1" time="0.001"/>
+  <testcase classname="retryAnalyzer.RuntimeRetry" name="Test2" time="0.001">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at retryAnalyzer.RuntimeRetry.Test2(RuntimeRetry.java:14)
+</failure>
+  </testcase>
+  <testcase classname="anotation.simpleTest" name="test1" time="0"/>
+  <testcase classname="anotation.simpleTest" name="test2" time="0"/>
+  <testcase classname="dropDown.DynamicDropDown" name="makemytrip" time="0"/>
+  <testcase classname="dropDown.DynamicDropDown" name="start" time="32.105"/>
+  <testcase classname="sample.Sample1" name="test" time="0.002"/>
+  <testcase classname="sample.Sample2" name="compose" time="0"/>
+  <testcase classname="sample.Sample2" name="login" time="0"/>
+  <testcase classname="sample.Sample2" name="signUp" time="0"/>
+  <testcase classname="actitimeTestNG.Actitime_InvocationCount" name="openBrowserAndAppURL" time="0"/>
+  <testcase classname="actitimeTestNG.Actitime_InvocationCount" name="openBrowserAndAppURL" time="0"/>
+  <testcase classname="actitimeTestNG.Actitime_InvocationCount" name="openBrowserAndAppURL" time="0"/>
+  <testcase classname="actitimeTestNG.Actitime_InvocationCount" name="openBrowserAndAppURL" time="0"/>
+  <testcase classname="actitimeTestNG.Actitime_InvocationCount" name="openBrowserAndAppURL" time="0"/>
+  <testcase classname="sample.Sample3" name="a_signUp" time="0"/>
+  <testcase classname="sample.Sample3" name="b_login" time="0.001"/>
+  <testcase classname="sample.Sample3" name="c_compose" time="0"/>
+  <testcase classname="anotation.AnoPriority" name="test1" time="0"/>
+  <testcase classname="anotation.AnoPriority" name="test3" time="0"/>
+  <testcase classname="actitimeTestNG.Actitime_Priority" name="openBrowserAndAppURL" time="0"/>
+  <testcase classname="actitimeTestNG.Actitime_Priority" name="login" time="0"/>
+  <testcase classname="actitimeTestNG.Actitime_Priority" name="createTask" time="0"/>
+  <testcase classname="actitimeTestNG.Actitime_Priority" name="logoutClose" time="0"/>
+  <testcase classname="anotation.AnoalwaysRun" name="test3" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="actitimeTestNG.Actitime_Dependson" name="login" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="anotation.AnoDependencies" name="test3" time="0"/>
+</testsuite>

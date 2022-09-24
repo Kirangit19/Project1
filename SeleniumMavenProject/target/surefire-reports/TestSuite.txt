@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 64, Failures: 5, Errors: 0, Skipped: 2, Time elapsed: 193.723 sec <<< FAILURE!
+updateExcel(excelReading.UpdateExcel)  Time elapsed: 0.051 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at excelReading.UpdateExcel.updateExcel(UpdateExcel.java:23)
+
+test1(anotation.AnoalwaysRun)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at anotation.AnoalwaysRun.test1(AnoalwaysRun.java:9)
+
+test2(anotation.AnoalwaysRun)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Method fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at anotation.AnoalwaysRun.test2(AnoalwaysRun.java:14)
+
+openBrowserAndAppURL(actitimeTestNG.Actitime_Dependson)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.ArithmeticException: / by zero
+	at actitimeTestNG.Actitime_Dependson.openBrowserAndAppURL(Actitime_Dependson.java:9)
+
+Test2(retryAnalyzer.RuntimeRetry)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at retryAnalyzer.RuntimeRetry.Test2(RuntimeRetry.java:14)
+
