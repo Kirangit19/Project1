@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups> 	<!-- Meto form -->
+		<define name="DailyBuild">
+			<include name="smoke"></include>		
+			<include name="Integration"></include>		
+		</define>
+		<run>
+			<include name="DailyBuild"></include>
+		</run>
+	</groups>
+	<test thread-count="5" name="Test">
+		<groups>
+			<run>
+				<include name="smoke" />
+				<include name="Integration" />
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.Group.Class02" >
+				<methods>
+					<include name="Method03"/>
+					<include name="Method05"/>
+					<include name="Method02"/>
+					<include name="Method04"/>
+					<include name="Method01"/>
+				</methods>
+			</class>
+			<class name="com.Group.Class01" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
