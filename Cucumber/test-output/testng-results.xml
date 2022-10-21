@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="95560" started-at="2022-10-21T17:30:46Z" finished-at="2022-10-21T17:32:22Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.ActitimeRunner@48e4374]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="95560" started-at="2022-10-21T17:30:46Z" finished-at="2022-10-21T17:32:22Z">
+      <class name="runner.ActitimeRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.ActitimeRunner@48e4374]" name="setUpClass" is-config="true" duration-ms="751" started-at="2022-10-21T23:00:46Z" finished-at="2022-10-21T23:00:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.ActitimeRunner@48e4374]" name="runScenario" duration-ms="34186" started-at="2022-10-21T23:00:47Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-21T23:01:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["check actitime login functinality with valid user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[It contains TCs related to Actitime Login page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.ActitimeRunner@48e4374]" name="runScenario" duration-ms="29308" started-at="2022-10-21T23:01:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-21T23:01:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["check actitime login functinality with invalid user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[It contains TCs related to Actitime Login page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.ActitimeRunner@48e4374]" name="runScenario" duration-ms="29667" started-at="2022-10-21T23:01:51Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-21T23:02:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["check actitime login functinality with invalid user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[It contains TCs related to Actitime Login page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.ActitimeRunner@48e4374]" name="tearDownClass" is-config="true" duration-ms="1617" started-at="2022-10-21T23:02:20Z" finished-at="2022-10-21T23:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.ActitimeRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

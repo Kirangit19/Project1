@@ -97,3 +97,7 @@
 [INFO ] 2022-10-20 18:51:49.858 [main] MavenProject - TShirt added in Cart
 [INFO ] 2022-10-20 18:51:56.252 [main] MavenProject - Clicked on Proceed to checkout
 [INFO ] 2022-10-20 18:52:05.875 [main] MavenProject - Clicked on Proceed to checkout
+[INFO ] 2022-10-21 23:26:20.444 [main] MavenProject - url opened
+[INFO ] 2022-10-21 23:26:33.789 [main] MavenProject - Clicked on sign in link
+[INFO ] 2022-10-21 23:26:36.117 [main] MavenProject - Sign in successful
+[INFO ] 2022-10-21 23:26:38.695 [main] MavenProject - Clicked on TShirt

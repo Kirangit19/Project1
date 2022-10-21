@@ -2,16 +2,16 @@
 <testng-results retried="2" ignored="2" total="5" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-20T18:49:49 IST" name="Suite" finished-at="2022-10-20T18:53:37 IST" duration-ms="228041">
+  <suite started-at="2022-10-21T23:25:43 IST" name="Suite" finished-at="2022-10-21T23:28:10 IST" duration-ms="146549">
     <groups>
     </groups>
-    <test started-at="2022-10-20T18:49:49 IST" name="Test" finished-at="2022-10-20T18:53:37 IST" duration-ms="228041">
+    <test started-at="2022-10-21T23:25:43 IST" name="Test" finished-at="2022-10-21T23:28:10 IST" duration-ms="146549">
       <class name="com.mystore.testCases.TC_MyAccountPageTestDataDrivenTesting">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:com.mystore.testCases.TC_MyAccountPageTestDataDrivenTesting@7bd4937b]" started-at="2022-10-20T18:49:50 IST" name="initialization" finished-at="2022-10-20T18:50:09 IST" duration-ms="18737" status="PASS">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.mystore.testCases.TC_MyAccountPageTestDataDrivenTesting@7bd4937b]" started-at="2022-10-21T23:25:44 IST" name="initialization" finished-at="2022-10-21T23:26:20 IST" duration-ms="35672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method retried="true" signature="purchaseProduct(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testCases.TC_MyAccountPageTestDataDrivenTesting@7bd4937b]" started-at="2022-10-20T18:50:14 IST" name="purchaseProduct" data-provider="LoginDataProvider" finished-at="2022-10-20T18:52:35 IST" duration-ms="141015" status="SKIP">
+        <test-method retried="true" signature="purchaseProduct(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testCases.TC_MyAccountPageTestDataDrivenTesting@7bd4937b]" started-at="2022-10-21T23:26:29 IST" name="purchaseProduct" data-provider="LoginDataProvider" finished-at="2022-10-21T23:27:08 IST" duration-ms="39064" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -31,26 +31,26 @@
           </params>
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#cgv"}
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"More"}
   (Session info: chrome=106.0.5249.119)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-41741T4J', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KIRAN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49224}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3200d58c993250d0dcecb53ff8660fee
-*** Element info: {Using=id, value=cgv}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KIRAN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52328}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d95c9f423b850faa6d2d7d29d0b7fd73
+*** Element info: {Using=link text, value=More}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#cgv"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"More"}
   (Session info: chrome=106.0.5249.119)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-41741T4J', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KIRAN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49224}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3200d58c993250d0dcecb53ff8660fee
-*** Element info: {Using=id, value=cgv}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KIRAN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52328}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d95c9f423b850faa6d2d7d29d0b7fd73
+*** Element info: {Using=link text, value=More}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -62,14 +62,14 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at com.sun.proxy.$Proxy26.click(Unknown Source)
-at com.mystore.pageObject.TshirtOrderShip.clickOnCheckbox(TshirtOrderShip.java:27)
-at com.mystore.testCases.TC_MyAccountPageTestDataDrivenTesting.purchaseProduct(TC_MyAccountPageTestDataDrivenTesting.java:123)
+at com.mystore.pageObject.TshirtStore.clickOnMore(TshirtStore.java:21)
+at com.mystore.testCases.TC_MyAccountPageTestDataDrivenTesting.purchaseProduct(TC_MyAccountPageTestDataDrivenTesting.java:104)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -108,7 +108,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- purchaseProduct -->
-        <test-method retried="true" signature="purchaseProduct(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testCases.TC_MyAccountPageTestDataDrivenTesting@7bd4937b]" started-at="2022-10-20T18:52:36 IST" name="purchaseProduct" data-provider="LoginDataProvider" finished-at="2022-10-20T18:53:06 IST" duration-ms="30052" status="SKIP">
+        <test-method retried="true" signature="purchaseProduct(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testCases.TC_MyAccountPageTestDataDrivenTesting@7bd4937b]" started-at="2022-10-21T23:27:09 IST" name="purchaseProduct" data-provider="LoginDataProvider" finished-at="2022-10-21T23:27:39 IST" duration-ms="30053" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -134,8 +134,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-41741T4J', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KIRAN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49224}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3200d58c993250d0dcecb53ff8660fee
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KIRAN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52328}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d95c9f423b850faa6d2d7d29d0b7fd73
 *** Element info: {Using=link text, value=Sign in}]]>
             </message>
             <full-stacktrace>
@@ -145,8 +145,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-41741T4J', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KIRAN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49224}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3200d58c993250d0dcecb53ff8660fee
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KIRAN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52328}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d95c9f423b850faa6d2d7d29d0b7fd73
 *** Element info: {Using=link text, value=Sign in}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -205,7 +205,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- purchaseProduct -->
-        <test-method signature="purchaseProduct(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testCases.TC_MyAccountPageTestDataDrivenTesting@7bd4937b]" started-at="2022-10-20T18:53:06 IST" name="purchaseProduct" data-provider="LoginDataProvider" finished-at="2022-10-20T18:53:36 IST" duration-ms="30095" status="FAIL">
+        <test-method signature="purchaseProduct(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testCases.TC_MyAccountPageTestDataDrivenTesting@7bd4937b]" started-at="2022-10-21T23:27:39 IST" name="purchaseProduct" data-provider="LoginDataProvider" finished-at="2022-10-21T23:28:09 IST" duration-ms="30031" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -231,8 +231,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-41741T4J', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KIRAN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49224}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3200d58c993250d0dcecb53ff8660fee
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KIRAN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52328}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d95c9f423b850faa6d2d7d29d0b7fd73
 *** Element info: {Using=link text, value=Sign in}]]>
             </message>
             <full-stacktrace>
@@ -242,8 +242,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-41741T4J', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KIRAN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49224}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3200d58c993250d0dcecb53ff8660fee
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KIRAN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52328}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d95c9f423b850faa6d2d7d29d0b7fd73
 *** Element info: {Using=link text, value=Sign in}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -302,7 +302,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- purchaseProduct -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.mystore.testCases.TC_MyAccountPageTestDataDrivenTesting@7bd4937b]" started-at="2022-10-20T18:53:36 IST" name="cleanUp" finished-at="2022-10-20T18:53:37 IST" duration-ms="491" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.mystore.testCases.TC_MyAccountPageTestDataDrivenTesting@7bd4937b]" started-at="2022-10-21T23:28:09 IST" name="cleanUp" finished-at="2022-10-21T23:28:10 IST" duration-ms="634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
